@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19651" started-at="2021-02-23T06:15:50 UTC" finished-at="2021-02-23T06:16:10 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19651" started-at="2021-02-23T06:15:50 UTC" finished-at="2021-02-23T06:16:10 UTC">
+      <class name="test.CrossBrowser">
+        <test-method status="PASS" signature="launchFirefox()[pri:0, instance:test.CrossBrowser@30b8a058]" name="launchFirefox" duration-ms="17059" started-at="2021-02-23T06:15:50 UTC" finished-at="2021-02-23T06:16:07 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFirefox -->
+        <test-method status="PASS" signature="lunchChrome()[pri:0, instance:test.CrossBrowser@30b8a058]" name="lunchChrome" duration-ms="1740" started-at="2021-02-23T06:15:50 UTC" finished-at="2021-02-23T06:15:52 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchChrome -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:test.CrossBrowser@30b8a058]" name="testcase1" duration-ms="2015" started-at="2021-02-23T06:15:52 UTC" depends-on-methods="test.CrossBrowser.lunchChrome" finished-at="2021-02-23T06:15:54 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:test.CrossBrowser@30b8a058]" name="testcase2" duration-ms="2556" started-at="2021-02-23T06:16:07 UTC" depends-on-methods="test.CrossBrowser.launchFirefox" finished-at="2021-02-23T06:16:10 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- test.CrossBrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
